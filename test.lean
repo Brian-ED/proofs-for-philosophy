@@ -1,0 +1,6 @@
+set_option linter.unusedVariables false
+---
+variable {p : Prop}
+variable {q : Prop}
+
+theorem t1 : p → q → p := fun hp : p => fun hq : q => hp
