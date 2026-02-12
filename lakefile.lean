@@ -7,4 +7,4 @@ require aesop from git
 package proofs_for_philosophy
 
 @[default_target]
-lean_lib proofs_for_philosophy
+lean_exe proofs_for_philosophy
